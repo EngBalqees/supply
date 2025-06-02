@@ -23,7 +23,7 @@ namespace supply.Models.Repositorie
         }
 
         public Supplier Find(int Id) {
-            return db.Supplier.SingleOrDefault(x => x.Id == Id);
+            return db.Supplier.SingleOrDefault(x => x.SupplierId == Id);
         }
 
         public void Update(int Id, Supplier entity) { 

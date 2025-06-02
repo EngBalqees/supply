@@ -1,58 +1,282 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kh\\source\\repos\\supply\\",
+  "WorkspaceRootPath": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\sale\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\viewmodels\\vmsaleprocusinvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:viewmodels\\vmsaleprocusinvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\invoiceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\invoiceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\invoiceitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\invoiceitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\viewmodels\\vmproductcatesupp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:viewmodels\\vmproductcatesupp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\viewmodels\\vminvoiceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:viewmodels\\vminvoiceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbsalerepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbsalerepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\models\\repositorie\\dbsupplierrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbsupplierrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbproductrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbproductrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbcategoryrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbcategoryrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\invoiceitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\invoiceitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbinvoiceitemrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbinvoiceitemrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\supply.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:supply.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\supplier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\invoiceitem\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\invoiceitem\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\invoiceitem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\invoiceitem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\invoiceitem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\invoiceitem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\sale\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\sale\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\sale\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\views\\supplier\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\models\\repositorie\\irepositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\irepositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbsupplierrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbsupplierrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbemployeerepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbemployeerepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\dbcustomerrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbcustomerrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\repositorie\\irepositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\irepositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\views\\supplier\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\supplier\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\migrations\\20250522114107_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:migrations\\20250522114107_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\ibrah\\source\\repos\\engbalqees\\supply\\migrations\\20250602230730_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:migrations\\20250602230730_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,137 +286,796 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:39:20.337Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Supplier\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Supplier\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Create.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T15:44:41.884Z",
+              "WhenOpened": "2025-05-30T08:41:12.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Supplier\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Supplier\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T15:24:19.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-07T10:27:24.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Supplier\\Create.cshtml",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Create.cshtml",
-              "RelativeToolTip": "Views\\Supplier\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T19:59:49.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T19:54:48.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "VmSaleProCusInvo.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\ViewModels\\VmSaleProCusInvo.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VmSaleProCusInvo.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\ViewModels\\VmSaleProCusInvo.cs",
+              "RelativeToolTip": "ViewModels\\VmSaleProCusInvo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:26:16.482Z"
+              "WhenOpened": "2025-05-30T10:18:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "Controllers\\SaleController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwCgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:38:58.184Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Supplier\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Views\\Supplier\\Index.cshtml",
-              "RelativeToolTip": "Views\\Supplier\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:40:58.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceItemController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\InvoiceItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceItemController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\InvoiceItemController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceItemController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:40:05.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20250602230730_update.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Migrations\\20250602230730_update.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250602230730_update.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Migrations\\20250602230730_update.cs",
+              "RelativeToolTip": "Migrations\\20250602230730_update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T23:07:30.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\InvoiceItem\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Create.cshtml",
+              "RelativeToolTip": "Views\\InvoiceItem\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAC0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T19:54:30.594Z"
+              "WhenOpened": "2025-05-30T08:52:25.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:49:23.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Sale.cs",
+              "RelativeToolTip": "Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:57:44.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VmProductCateSupp.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\ViewModels\\VmProductCateSupp.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VmProductCateSupp.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\ViewModels\\VmProductCateSupp.cs",
+              "RelativeToolTip": "ViewModels\\VmProductCateSupp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:20:44.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VmInvoiceProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\ViewModels\\VmInvoiceProduct.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VmInvoiceProduct.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\ViewModels\\VmInvoiceProduct.cs",
+              "RelativeToolTip": "ViewModels\\VmInvoiceProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:21:51.73Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T19:54:46.061Z"
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Controllers\\SupplierController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:08:08.099Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "supplier.cs",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Models\\supplier.cs",
-              "RelativeDocumentMoniker": "Models\\supplier.cs",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Models\\supplier.cs",
-              "RelativeToolTip": "Models\\supplier.cs",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Index.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:39:51.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbSaleRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbSaleRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbSaleRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbSaleRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbSaleRepos.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:08:55.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbProductRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbProductRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbProductRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbProductRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbProductRepos.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:10:15.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:48:25.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbCategoryRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbCategoryRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbCategoryRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbCategoryRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbCategoryRepos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:12:43.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\InvoiceItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Index.cshtml",
+              "RelativeToolTip": "Views\\InvoiceItem\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:51:30.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbInvoiceItemRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbInvoiceItemRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbInvoiceItemRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbInvoiceItemRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbInvoiceItemRepos.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:10:54.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:22:17.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:52:28.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:22:07.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:53:48.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "supplier.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\supplier.cs",
+              "RelativeDocumentMoniker": "Models\\supplier.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\supplier.cs",
+              "RelativeToolTip": "Models\\supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T19:43:50.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Models\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Models\\AppDBContext.cs",
-              "RelativeToolTip": "Models\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T17:31:53.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T10:54:29.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
+              "Title": "supply.csproj",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\supply.csproj",
+              "RelativeDocumentMoniker": "supply.csproj",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\supply.csproj",
+              "RelativeToolTip": "supply.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-30T10:16:25.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Details.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T09:07:57.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:57:35.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T09:01:37.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T09:00:49.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T09:00:22.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T09:00:01.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:59:35.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:58:55.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:58:31.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:58:04.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:42:28.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:57:10.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:56:12.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:55:47.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:55:23.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:55:00.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:41:45.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:54:19.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\InvoiceItem\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Delete.cshtml",
+              "RelativeToolTip": "Views\\InvoiceItem\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:53:17.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\InvoiceItem\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Edit.cshtml",
+              "RelativeToolTip": "Views\\InvoiceItem\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:52:50.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\InvoiceItem\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\InvoiceItem\\Details.cshtml",
+              "RelativeToolTip": "Views\\InvoiceItem\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:51:59.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:50:19.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:49:49.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:48:57.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Details.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:47:16.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:46:41.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Sale\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T08:45:59.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Index.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAADsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T19:54:30.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T08:01:31.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20250522114107_createDb.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Migrations\\20250522114107_createDb.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250522114107_createDb.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Migrations\\20250522114107_createDb.cs",
+              "RelativeToolTip": "Migrations\\20250522114107_createDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:41:07.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "dbSupplierRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbSupplierRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbSupplierRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbSupplierRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbSupplierRepos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:31:53.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:26:16.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T10:27:24.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\Delete.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T15:24:19.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T15:44:41.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "dbCustomerRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbCustomerRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbCustomerRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbCustomerRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbCustomerRepos.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:12:03.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "dbEmployeeRepos.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbEmployeeRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbEmployeeRepos.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\dbEmployeeRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbEmployeeRepos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:11:36.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
               "Title": "IRepositorie.cs",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Models\\Repositorie\\IRepositorie.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\IRepositorie.cs",
               "RelativeDocumentMoniker": "Models\\Repositorie\\IRepositorie.cs",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Models\\Repositorie\\IRepositorie.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\Repositorie\\IRepositorie.cs",
               "RelativeToolTip": "Models\\Repositorie\\IRepositorie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,32 +1083,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbSupplierRepos.cs",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Models\\Repositorie\\dbSupplierRepos.cs",
-              "RelativeDocumentMoniker": "Models\\Repositorie\\dbSupplierRepos.cs",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Models\\Repositorie\\dbSupplierRepos.cs",
-              "RelativeToolTip": "Models\\Repositorie\\dbSupplierRepos.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 63,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Models\\AppDBContext.cs",
+              "RelativeToolTip": "Models\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T17:31:53.42Z"
+              "WhenOpened": "2025-04-24T17:31:53.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SupplierController.cs",
-              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply\\Controllers\\SupplierController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
-              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply\\Controllers\\SupplierController.cs",
-              "RelativeToolTip": "Controllers\\SupplierController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAD8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T19:08:08.099Z",
-              "EditorCaption": ""
+              "DocumentIndex": 64,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T19:54:46.061Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T19:54:48.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\EngBalqees\\supply\\Views\\Supplier\\Create.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T19:59:49.334Z"
             }
           ]
         }

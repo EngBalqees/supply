@@ -86,8 +86,7 @@ namespace supply.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int Id, Supplier collection)
-        {
-            try
+        { try
             {
                 supplierRep.Delete(Id, collection);
                 return RedirectToAction(nameof(Index));
@@ -97,6 +96,7 @@ namespace supply.Controllers
                 return View();
 
             }
+           
         }
 
     }

@@ -17,6 +17,13 @@ builder.Services.AddDbContext<AppDBContext>(options =>
 });
 
 builder.Services.AddScoped<IRepositorie<Supplier>, dbSupplierRepos>();
+builder.Services.AddScoped<IRepositorie<Sale>, dbSaleRepos>();
+builder.Services.AddScoped<IRepositorie<Product>, dbProductRepos>();
+builder.Services.AddScoped<IRepositorie<InvoiceItem>, dbInvoiceItemRepos>();
+builder.Services.AddScoped<IRepositorie<Employee>, dbEmployeeRepos>();
+builder.Services.AddScoped<IRepositorie<Customer>, dbCustomerRepos>();
+builder.Services.AddScoped<IRepositorie<Category>, dbCategoryRepos>();
+
 
 
 
