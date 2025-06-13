@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
+          "bootstrap": "5.3.6"
         },
         "runtime": {
           "supply.dll": {}
@@ -53,6 +54,7 @@
           }
         }
       },
+      "bootstrap/5.3.6": {},
       "Humanizer/2.14.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.14.1",
@@ -1925,6 +1927,13 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "bootstrap/5.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EIn/yfZDXTX8TFJSG6fkFQw7cXpXv2kFDrIBiKWR9Xi2NOCXNs3f7XcNd52X68ylFKI0TyEHjxBjdMz4x9GT4Q==",
+      "path": "bootstrap/5.3.6",
+      "hashPath": "bootstrap.5.3.6.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",

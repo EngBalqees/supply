@@ -6,16 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace supply.Migrations
 {
     /// <inheritdoc />
-    public partial class createDb : Migration
+    public partial class createdatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
-                name: "Id",
-                table: "Supplier",
-                newName: "SupplierId");
-
             migrationBuilder.CreateTable(
                 name: "Category",
                 columns: table => new
@@ -60,20 +55,20 @@ namespace supply.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "InvoiceItem",
+                name: "Supplier",
                 columns: table => new
                 {
-                    InvoiceItemId = table.Column<int>(type: "int", nullable: false)
+                    SupplierId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    InvoiceNumber = table.Column<int>(type: "int", nullable: false),
-                    Qty = table.Column<int>(type: "int", nullable: false),
-                    Vprice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Tprice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    ProductId = table.Column<int>(type: "int", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ContactPerson = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_InvoiceItem", x => x.InvoiceItemId);
+                    table.PrimaryKey("PK_Supplier", x => x.SupplierId);
                 });
 
             migrationBuilder.CreateTable(
@@ -91,6 +86,41 @@ namespace supply.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Product", x => x.ProductId);
+                    table.ForeignKey(
+                        name: "FK_Product_Category_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "Category",
+                        principalColumn: "CategoryId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Product_Supplier_SupplierId",
+                        column: x => x.SupplierId,
+                        principalTable: "Supplier",
+                        principalColumn: "SupplierId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "InvoiceItem",
+                columns: table => new
+                {
+                    InvoiceItemId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    InvoiceNumber = table.Column<int>(type: "int", nullable: false),
+                    Qty = table.Column<int>(type: "int", nullable: false),
+                    Vprice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Tprice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_InvoiceItem", x => x.InvoiceItemId);
+                    table.ForeignKey(
+                        name: "FK_InvoiceItem_Product_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Product",
+                        principalColumn: "ProductId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -108,14 +138,62 @@ namespace supply.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Sale", x => x.SaleId);
+                    table.ForeignKey(
+                        name: "FK_Sale_Customer_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customer",
+                        principalColumn: "CustomerId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Sale_Employee_EmployeeId",
+                        column: x => x.EmployeeId,
+                        principalTable: "Employee",
+                        principalColumn: "EmployeeId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Sale_InvoiceItem_InvoiceItemId",
+                        column: x => x.InvoiceItemId,
+                        principalTable: "InvoiceItem",
+                        principalColumn: "InvoiceItemId",
+                        onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_InvoiceItem_ProductId",
+                table: "InvoiceItem",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Product_CategoryId",
+                table: "Product",
+                column: "CategoryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Product_SupplierId",
+                table: "Product",
+                column: "SupplierId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Sale_CustomerId",
+                table: "Sale",
+                column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Sale_EmployeeId",
+                table: "Sale",
+                column: "EmployeeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Sale_InvoiceItemId",
+                table: "Sale",
+                column: "InvoiceItemId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Category");
+                name: "Sale");
 
             migrationBuilder.DropTable(
                 name: "Customer");
@@ -130,12 +208,10 @@ namespace supply.Migrations
                 name: "Product");
 
             migrationBuilder.DropTable(
-                name: "Sale");
+                name: "Category");
 
-            migrationBuilder.RenameColumn(
-                name: "SupplierId",
-                table: "Supplier",
-                newName: "Id");
+            migrationBuilder.DropTable(
+                name: "Supplier");
         }
     }
 }

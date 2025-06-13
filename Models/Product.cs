@@ -12,6 +12,6 @@
         public required Category Category { get; set; }
 
         public required Supplier Supplier { get; set; }
-
+         public ICollection<InvoiceItem> invoiceItems { get; set; }
     }
 }

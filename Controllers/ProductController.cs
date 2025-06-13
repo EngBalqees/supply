@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using supply.Models.Repositorie;
 using supply.Models;
 using supply.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace supply.Controllers
 {
@@ -32,7 +34,11 @@ namespace supply.Controllers
         // GET: ProductController/Details/5
         public ActionResult Details(int id)
         {
-            var data = productRep.Find(id);
+            var data = (productRep as dbProductRepos)?.GetDetails(id);
+            if (data == null)
+            {
+                return NotFound();
+            }
             return View(data);
         }
 
@@ -68,7 +74,15 @@ namespace supply.Controllers
         // GET: ProductController/Edit/5
         public ActionResult Edit(int id)
         {
+            
+            
             var data = productRep.Find(id);
+            if (data == null)
+            {
+                return NotFound();
+            }
+            ViewBag.CategoryList = new SelectList(categoryRep.View().ToList(), "CategoryId", "Name");
+            ViewBag.SupplierList = new SelectList(supplierRepo.View().ToList(), "SupplierId", "Name");
             return View(data);
         }
 
@@ -90,9 +104,10 @@ namespace supply.Controllers
         }
 
         // GET: ProductController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
-            var data = productRep.Find(id);
+            var data = productRep.Find(id.Value);
+            if (data == null) return NotFound();
             return View(data);
         }
 
@@ -103,6 +118,7 @@ namespace supply.Controllers
         {
             try
             {
+            
                 productRep.Delete(id, collection);
                 return RedirectToAction(nameof(Index));
             }

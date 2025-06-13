@@ -26,7 +26,9 @@ namespace supply.Models.Repositorie
 
         public Product Find(int Id)
         {
-            return db.Product.SingleOrDefault(x => x.ProductId == Id);
+            return db.Product.Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .SingleOrDefault(x => x.ProductId == Id);
         }
 
         public void Update(int Id, Product entity)
@@ -41,6 +43,13 @@ namespace supply.Models.Repositorie
               .Include(x => x.Supplier)
               .Include(x => x.Category)
               .ToList();
+        }
+
+        public Product GetDetails(int id)
+        {
+            return db.Product.Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .FirstOrDefault(p => p.ProductId == id);
         }
     }
 }

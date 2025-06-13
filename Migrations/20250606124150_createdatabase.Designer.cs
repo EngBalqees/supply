@@ -12,8 +12,8 @@ using supply.Models;
 namespace supply.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250602230730_update")]
-    partial class update
+    [Migration("20250606124150_createdatabase")]
+    partial class createdatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

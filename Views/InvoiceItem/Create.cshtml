@@ -1,61 +1,77 @@
 ﻿@model supply.ViewModels.VmInvoiceProduct
 
 @{
+    ViewBag.Title = "Create Invoice Item";
     Layout = null;
 }
 
-<!DOCTYPE html>
+<!-- Bootstrap 5 CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
-</head>
-<body>
+<div class="container mt-5">
+    <h2>Create Invoice Item</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
-<h4>InvoiceItem</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="InvoiceNumber" class="control-label"></label>
-                <input asp-for="InvoiceNumber" class="form-control" />
-                <span asp-validation-for="InvoiceNumber" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Qty" class="control-label"></label>
-                <input asp-for="Qty" class="form-control" />
-                <span asp-validation-for="Qty" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Vprice" class="control-label"></label>
-                <input asp-for="Vprice" class="form-control" />
-                <span asp-validation-for="Vprice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tprice" class="control-label"></label>
-                <input asp-for="Tprice" class="form-control" />
-                <span asp-validation-for="Tprice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ProductId" class="control-label"></label>
-                    <select asp-for="ProductId" class="form-control" asp-items="@(new SelectList(Model.ListProduct, "ProductId", "Name"))">
-                        <option value="">select product name</option>
-                    </select>               
+                <div class="mb-3">
+                    <label asp-for="InvoiceNumber" class="form-label"></label>
+                    <input asp-for="InvoiceNumber" class="form-control" />
+                    <span asp-validation-for="InvoiceNumber" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Qty" class="form-label"></label>
+                    <input asp-for="Qty" class="form-control" id="qtyInput" />
+                    <span asp-validation-for="Qty" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Vprice" class="form-label"></label>
+                    <input asp-for="Vprice" class="form-control" id="vpriceInput" />
+                    <span asp-validation-for="Vprice" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Tprice" class="form-label"></label>
+                    <input asp-for="Tprice" class="form-control" id="tpriceInput" readonly />
+                    <span asp-validation-for="Tprice" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ProductId" class="form-label">Product</label>
+                    <select asp-for="ProductId" class="form-select" asp-items="@(new SelectList(Model.ListProduct, "ProductId", "Name"))">
+                        <option value="">Select product name</option>
+                    </select>
                     <span asp-validation-for="ProductId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                    <a asp-action="Index" class="btn btn-secondary ms-2">Back to List</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<!-- Optional Bootstrap JS for components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
-</html>
+<!-- Optional: Auto-calculate total price -->
+<script>
+    const qtyInput = document.getElementById('qtyInput');
+    const vpriceInput = document.getElementById('vpriceInput');
+    const tpriceInput = document.getElementById('tpriceInput');
+
+    function updateTotal() {
+        const qty = parseFloat(qtyInput.value) || 0;
+        const price = parseFloat(vpriceInput.value) || 0;
+        tpriceInput.value = (qty * price).toFixed(2);
+    }
+
+    qtyInput.addEventListener('input', updateTotal);
+    vpriceInput.addEventListener('input', updateTotal);
+</script>

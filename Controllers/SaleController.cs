@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using supply.Models.Repositorie;
 using supply.Models;
 using supply.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace supply.Controllers
 {
@@ -31,9 +32,10 @@ namespace supply.Controllers
         }
 
         // GET: SaleController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            var data = saleRep.Find(id);
+            var data = (saleRep as dbSaleRepos)?.GetDetails(id);
+            if (data == null) return NotFound();
             return View(data);
         }
 
@@ -71,8 +73,21 @@ namespace supply.Controllers
         // GET: SaleController/Edit/5
         public ActionResult Edit(int id)
         {
+            if (id == null) return NotFound();
             var data = saleRep.Find(id);
-            return View(data);
+            if (id == null) return NotFound();
+            var vm = new VmSaleProCusInvo
+            {
+                SaleId = data.SaleId,
+                Date = data.Date,
+                Amount = data.Amount,
+                ListCustomer = customerRep.View().ToList(),
+                ListEmployee  = employeeRepo.View().ToList(),
+                ListInvoiceItem = invoiceItemRepo.View().ToList()
+            };
+            return View(vm);
+
+
         }
 
         // POST: SaleController/Edit/5
@@ -93,10 +108,11 @@ namespace supply.Controllers
         }
 
         // GET: SaleController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
-            var data = saleRep.Find(id);
-            return View(data);
+            var sale = (saleRep as dbSaleRepos)?.GetDetails(id);
+            if (sale == null) return NotFound();
+            return View(sale);
         }
 
         // POST: SaleController/Delete/5

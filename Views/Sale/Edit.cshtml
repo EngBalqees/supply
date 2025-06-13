@@ -1,60 +1,71 @@
-﻿@model supply.Models.Sale
+﻿@model supply.ViewModels.VmSaleProCusInvo
 
 @{
     Layout = null;
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Edit</title>
+    <title>Edit Sale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
 
-<h4>Sale</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="container mt-5" style="max-width: 600px;">
+        <h3 class="mb-4">Edit Sale</h3>
+
+        <form asp-action="Edit" class="card p-4 shadow-sm">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
             <input type="hidden" asp-for="SaleId" />
-            <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
+
+            <div class="mb-3">
+                <label asp-for="Date" class="form-label fw-semibold"></label>
                 <input asp-for="Date" class="form-control" />
-                <span asp-validation-for="Date" class="text-danger"></span>
+                <span asp-validation-for="Date" class="text-danger small"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Amount" class="control-label"></label>
+
+            <div class="mb-3">
+                <label asp-for="Amount" class="form-label fw-semibold"></label>
                 <input asp-for="Amount" class="form-control" />
-                <span asp-validation-for="Amount" class="text-danger"></span>
+                <span asp-validation-for="Amount" class="text-danger small"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CustomerId" class="control-label"></label>
-                <input asp-for="CustomerId" class="form-control" />
-                <span asp-validation-for="CustomerId" class="text-danger"></span>
+
+            <div class="mb-3">
+                <label asp-for="Customer" class="form-label fw-semibold"></label>
+               <select asp-for="CustomerId" class="form-select"
+               asp-items="@(new SelectList(Model.ListCustomer,"CustomerId","Name"))">
+                   <option value="">Select Customer</option>
+                   </select>
+                <span asp-validation-for="Customer" class="text-danger small"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="EmployeeId" class="control-label"></label>
-                <input asp-for="EmployeeId" class="form-control" />
-                <span asp-validation-for="EmployeeId" class="text-danger"></span>
+
+            <div class="mb-3">
+                <label asp-for="Employee" class="form-label fw-semibold"></label>
+                <select asp-for="EmployeeId" class="form-select"
+                        asp-items="@(new SelectList(Model.ListEmployee,"EmployeeId","Name"))">
+                    <option value="">Select Employee</option>
+                </select>
+                <span asp-validation-for="Employee" class="text-danger small"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="InvoiceItemId" class="control-label"></label>
-                <input asp-for="InvoiceItemId" class="form-control" />
-                <span asp-validation-for="InvoiceItemId" class="text-danger"></span>
+
+            <div class="mb-3">
+                <label asp-for="InvoiceItem" class="form-label fw-semibold"></label>
+                <select asp-for="InvoiceItemId" class="form-select"
+                        asp-items="@(new SelectList(Model.ListInvoiceItem,"InvoiceItemId","InvoiceNumber"))">
+                    <option value="">Select Invoice Number</option>
+                </select>
+                <span asp-validation-for="InvoiceItem" class="text-danger small"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success px-4">Save</button>
+                <a asp-action="Index" class="btn btn-outline-secondary px-4">Back to List</a>
             </div>
         </form>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

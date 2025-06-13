@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using supply.Models.Repositorie;
 using supply.Models;
 using supply.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace supply.Controllers
 {
@@ -27,9 +28,10 @@ namespace supply.Controllers
         }
 
         // GET: InvoiceItemController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            var data = invoiceRep.Find(id);
+            var data = (invoiceRep as dbInvoiceItemRepos)?.GetDetails(id);
+            if (data == null) return NotFound();
             return View(data);
         }
 
@@ -64,8 +66,23 @@ namespace supply.Controllers
         // GET: InvoiceItemController/Edit/5
         public ActionResult Edit(int id)
         {
-            var data = invoiceRep.Find(id);
-            return View(data);
+            if (id == null) return NotFound();
+
+            var item = invoiceRep.Find(id);
+            if (item == null) return NotFound();
+
+            var vm = new VmInvoiceProduct
+            {
+                InvoiceItemId = item.InvoiceItemId,
+                InvoiceNumber = item.InvoiceNumber,
+                Qty = item.Qty,
+                Vprice = item.Vprice,
+                Tprice = item.Tprice,
+                ProductId = item.ProductId,
+                ListProduct = productRepo.View().ToList() // make sure this returns List<Product>
+            };
+
+            return View(vm);
         }
 
         // POST: InvoiceItemController/Edit/5
@@ -86,10 +103,12 @@ namespace supply.Controllers
         }
 
         // GET: InvoiceItemController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
-            var data = invoiceRep.Find(id);
+            if (id == null) return NotFound();
+            var data = invoiceRep.Find(id.Value);
             return View(data);
+
         }
 
         // POST: InvoiceItemController/Delete/5

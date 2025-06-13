@@ -43,5 +43,12 @@ namespace supply.Models.Repositorie
                          .Include(x => x.InvoiceItem)
                          .ToList();
         }
+
+        public Sale GetDetails(int? id)
+        {
+            return db.Sale.Include(i => i.Customer)
+                .Include(i => i.Employee)
+                .Include(i => i.InvoiceItem).FirstOrDefault(i => i.SaleId == id);
+        }
     }
 }

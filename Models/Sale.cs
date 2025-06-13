@@ -8,11 +8,11 @@
         public int CustomerId { get; set; }
         public int EmployeeId { get; set; }
         public int InvoiceItemId { get; set; }
-        public required Customer Customer { get; set; }
+        public required Customer? Customer { get; set; }
 
-        public required Employee Employee { get; set; }
+        public required Employee? Employee { get; set; }
 
-        public required InvoiceItem InvoiceItem { get; set; }
+        public required InvoiceItem? InvoiceItem { get; set; }
 
     }
 }

@@ -1,61 +1,54 @@
 ﻿@model IEnumerable<supply.Models.Customer>
 
 @{
-    Layout = null;
+    Layout = "_Layout"; // Set a shared layout file if available
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>Customers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
 </head>
-<body>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CustomerId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CustomerId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CustomerId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Customer List</h2>
+
+        <div class="mb-3">
+            <a class="btn btn-success" asp-action="Create">➕ Create New Customer</a>
+        </div>
+
+        <table class="table table-bordered table-striped table-hover shadow-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Address)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().phone)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().email)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                        <td>@Html.DisplayFor(modelItem => item.phone)</td>
+                        <td>@Html.DisplayFor(modelItem => item.email)</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.CustomerId">Edit</a>
+                            <a class="btn btn-info btn-sm text-white" asp-action="Details" asp-route-id="@item.CustomerId">Details</a>
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.CustomerId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
 </body>
 </html>
+
