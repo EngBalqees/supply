@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "dashboard";
+}
+
+
+<nav class="navbar navbar-dark bg-primary mb-4 w-25 m-auto">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">IASM-System Admin Dashboard</span>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+            <div class="text-center p-4 bg-light rounded shadow-lg">
+                <h4 class="mb-3">Welcome!</h4>
+                <p class="mb-4">Use the links below to manage system data:</p>
+                <div class=" gap-2 d-grid ">
+                    <div class=" gap-2 d-flex justify-content-around">
+                        <a class="nav-link text-dark bg-white w-25 rounded-2 shadow-sm" asp-area="" asp-controller="Supplier" asp-action="Index">Supplier</a>
+                        <a class="nav-link text-dark bg-white w-25 w-25 rounded-2 shadow-sm" asp-area="" asp-controller="Employee" asp-action="Index">Employees</a>
+                    </div>
+                    <div class=" gap-2 d-flex justify-content-around">
+                        <a class="nav-link text-dark bg-white w-25 w-25 rounded-2 shadow-sm" asp-area="" asp-controller="Customer" asp-action="Index">Customers</a>
+                        <a class="nav-link text-dark bg-white w-25 w-25 rounded-2 shadow-sm" asp-area="" asp-controller="Category" asp-action="Index">Categories</a>
+                    </div>
+                    <div class=" gap-2 d-flex justify-content-around">
+                        <a class="nav-link text-dark bg-white w-25 w-25 rounded-2 shadow-sm" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                        <a class="nav-link text-dark bg-white w-25 w-25 rounded-2 shadow-sm" asp-area="" asp-controller="InvoiceItem" asp-action="Index">Invoices</a>
+                    </div>
+                    <div class=" gap-2 d-flex justify-content-around">
+                        <a class="nav-link text-dark bg-white w-25 w-25 rounded-2 shadow-sm" asp-area="" asp-controller="Sale" asp-action="Index">Sales</a>
+                    </div>
+
+                </div>
+                <a class="nav-link text-break link-info text-decoration-underline mt-2" asp-area="" asp-controller="Home" asp-action="Index">Return to home</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
