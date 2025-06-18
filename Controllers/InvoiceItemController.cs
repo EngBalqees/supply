@@ -38,11 +38,8 @@ namespace supply.Controllers
         // GET: InvoiceItemController/Create
         public ActionResult Create()
         {
-            var obj = new VmInvoiceProduct
-            {
-                ListProduct = productRepo.View().ToList()
-            };
-            return View(obj);
+            
+            return View();
         }
 
         // POST: InvoiceItemController/Create
@@ -69,20 +66,8 @@ namespace supply.Controllers
             if (id == null) return NotFound();
 
             var item = invoiceRep.Find(id);
-            if (item == null) return NotFound();
-
-            var vm = new VmInvoiceProduct
-            {
-                InvoiceItemId = item.InvoiceItemId,
-                InvoiceNumber = item.InvoiceNumber,
-                Qty = item.Qty,
-                Vprice = item.Vprice,
-                Tprice = item.Tprice,
-                ProductId = item.ProductId,
-                ListProduct = productRepo.View().ToList() // make sure this returns List<Product>
-            };
-
-            return View(vm);
+            
+            return View(id);
         }
 
         // POST: InvoiceItemController/Edit/5

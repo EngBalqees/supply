@@ -33,30 +33,30 @@
             </div>
 
             <div class="mb-3">
-                <label asp-for="Customer" class="form-label fw-semibold"></label>
+                <label asp-for="CustomerId" class="form-label fw-semibold"></label>
                <select asp-for="CustomerId" class="form-select"
                asp-items="@(new SelectList(Model.ListCustomer,"CustomerId","Name"))">
                    <option value="">Select Customer</option>
                    </select>
-                <span asp-validation-for="Customer" class="text-danger small"></span>
+                <span asp-validation-for="CustomerId" class="text-danger small"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Employee" class="form-label fw-semibold"></label>
+                <label asp-for="EmployeeId" class="form-label fw-semibold"></label>
                 <select asp-for="EmployeeId" class="form-select"
                         asp-items="@(new SelectList(Model.ListEmployee,"EmployeeId","Name"))">
                     <option value="">Select Employee</option>
                 </select>
-                <span asp-validation-for="Employee" class="text-danger small"></span>
+                <span asp-validation-for="EmployeeId" class="text-danger small"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="InvoiceItem" class="form-label fw-semibold"></label>
-                <select asp-for="InvoiceItemId" class="form-select"
-                        asp-items="@(new SelectList(Model.ListInvoiceItem,"InvoiceItemId","InvoiceNumber"))">
+                <label asp-for="InvoiceId" class="form-label fw-semibold"></label>
+                <select asp-for="InvoiceId" class="form-select"
+                        asp-items="@(new SelectList(Model.ListInvoice,"InvoiceId","InvoiceNumber"))">
                     <option value="">Select Invoice Number</option>
                 </select>
-                <span asp-validation-for="InvoiceItem" class="text-danger small"></span>
+                <span asp-validation-for="InvoiceId" class="text-danger small"></span>
             </div>
 
             <div class="d-flex justify-content-between">

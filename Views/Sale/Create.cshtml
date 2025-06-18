@@ -1,7 +1,7 @@
-﻿@model supply.ViewModels.VmSaleProCusInvo
+﻿@model supply.ViewModels.VmSaleProCusInvo;
 
 @{
-    Layout = null;
+    Layout = "_Layout"; // Or your main layout name
 }
 
 <!DOCTYPE html>
@@ -81,11 +81,11 @@
                 </div>
 
                 <div class="mb-4">
-                    <label asp-for="InvoiceItemId" class="form-label">Invoice Item</label>
-                    <select asp-for="InvoiceItemId" class="form-select" asp-items="@(new SelectList(Model.ListInvoiceItem, "InvoiceItemId", "InvoiceNumber"))">
+                    <label asp-for="InvoiceId" class="form-label">Invoice Item</label>
+                    <select asp-for="InvoiceId" class="form-select" asp-items="@(new SelectList(Model.ListInvoice, "InvoiceId", "InvoiceNumber"))">
                         <option value="">Select Invoice</option>
                     </select>
-                    <span asp-validation-for="InvoiceItemId" class="text-danger"></span>
+                    <span asp-validation-for="InvoiceId" class="text-danger"></span>
                 </div>
 
                 <div class="d-flex justify-content-between">
@@ -95,10 +95,13 @@
             </form>
         </div>
     </div>
-
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.5/jquery.validate.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.7/jquery.validate.unobtrusive.min.js"></script>
 </body>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    }
 </html>

@@ -20,8 +20,11 @@ namespace supply.Models.Repositorie
         public void Delete(int Id, Sale entity)
         {
             var data = Find(Id);
-            db.Sale.Remove(data);
-            db.SaveChanges();
+            if (data != null)
+            {
+                db.Sale.Remove(data);
+                db.SaveChanges();
+            }
         }
 
         public Sale Find(int Id)
@@ -40,7 +43,7 @@ namespace supply.Models.Repositorie
             return db.Sale
                          .Include(x => x.Employee)
                          .Include(x => x.Customer)
-                         .Include(x => x.InvoiceItem)
+                         .Include(x => x.Invoice)
                          .ToList();
         }
 
@@ -48,7 +51,7 @@ namespace supply.Models.Repositorie
         {
             return db.Sale.Include(i => i.Customer)
                 .Include(i => i.Employee)
-                .Include(i => i.InvoiceItem).FirstOrDefault(i => i.SaleId == id);
+                .Include(i => i.Invoice).FirstOrDefault(i => i.SaleId == id);
         }
     }
 }

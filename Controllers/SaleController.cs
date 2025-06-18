@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using supply.Models.Repositorie;
 using supply.Models;
 using supply.ViewModels;
@@ -9,21 +8,23 @@ namespace supply.Controllers
 {
     public class SaleController : Controller
     {
-        public IRepositorie<Sale> saleRep;
-        IRepositorie<Customer> customerRep;
-        IRepositorie<Employee> employeeRepo;
-        IRepositorie<InvoiceItem> invoiceItemRepo;
+        private readonly IRepositorie<Sale> saleRep;
+        private readonly IRepositorie<Customer> customerRep;
+        private readonly IRepositorie<Employee> employeeRepo;
+        private readonly IRepositorie<Invoice> invoiceRepo;
 
-        public SaleController(IRepositorie<Sale> repositorie
-            ,IRepositorie<Customer> customerRepositorie
-            , IRepositorie<Employee> employeeRepositorie
-            , IRepositorie<InvoiceItem> invoiceItemRepositorie)
+        public SaleController(
+            IRepositorie<Sale> saleRepositorie,
+            IRepositorie<Customer> customerRepositorie,
+            IRepositorie<Employee> employeeRepositorie,
+            IRepositorie<Invoice> invoiceRepositorie)
         {
-            saleRep = repositorie;
+            saleRep = saleRepositorie;
             customerRep = customerRepositorie;
             employeeRepo = employeeRepositorie;
-            invoiceItemRepo = invoiceItemRepositorie;
+            invoiceRepo = invoiceRepositorie;
         }
+
         // GET: SaleController
         public ActionResult Index()
         {
@@ -42,69 +43,88 @@ namespace supply.Controllers
         // GET: SaleController/Create
         public ActionResult Create()
         {
-            var obj = new VmSaleProCusInvo
+            var viewModel = new VmSaleProCusInvo
             {
                 ListCustomer = customerRep.View().ToList(),
                 ListEmployee = employeeRepo.View().ToList(),
-                ListInvoiceItem = invoiceItemRepo.View().ToList()
-
+                ListInvoice = invoiceRepo.View().ToList()
             };
-            return View(obj);
+            return View(viewModel);
         }
 
         // POST: SaleController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Sale collection)
+        public ActionResult Create(VmSaleProCusInvo vm)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                saleRep.Add(collection);
-                return RedirectToAction(nameof(Index));
-
+                vm.ListCustomer = customerRep.View().ToList();
+                vm.ListEmployee = employeeRepo.View().ToList();
+                vm.ListInvoice = invoiceRepo.View().ToList();
+                return View(vm);
             }
-            catch
+
+            var sale = new Sale
             {
-                return View();
+                Date = vm.Date,
+                Amount = vm.Amount,
+                CustomerId = vm.CustomerId,
+                EmployeeId = vm.EmployeeId,
+                InvoiceId = vm.InvoiceId
+            };
 
-            }
+            saleRep.Add(sale);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: SaleController/Edit/5
         public ActionResult Edit(int id)
         {
-            if (id == null) return NotFound();
             var data = saleRep.Find(id);
-            if (id == null) return NotFound();
+            if (data == null) return NotFound();
+
             var vm = new VmSaleProCusInvo
             {
                 SaleId = data.SaleId,
                 Date = data.Date,
                 Amount = data.Amount,
+                CustomerId = data.CustomerId,
+                EmployeeId = data.EmployeeId,
+                InvoiceId = data.InvoiceId,
                 ListCustomer = customerRep.View().ToList(),
-                ListEmployee  = employeeRepo.View().ToList(),
-                ListInvoiceItem = invoiceItemRepo.View().ToList()
+                ListEmployee = employeeRepo.View().ToList(),
+                ListInvoice = invoiceRepo.View().ToList()
             };
+
             return View(vm);
-
-
         }
 
         // POST: SaleController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, Sale collection)
+        public ActionResult Edit(int id, VmSaleProCusInvo vm)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                saleRep.Update(id, collection);
-                return RedirectToAction(nameof(Index));
+                vm.ListCustomer = customerRep.View().ToList();
+                vm.ListEmployee = employeeRepo.View().ToList();
+                vm.ListInvoice = invoiceRepo.View().ToList();
+                return View(vm);
             }
-            catch
-            {
-                return View();
 
-            }
+            var updatedSale = new Sale
+            {
+                SaleId = vm.SaleId,
+                Date = vm.Date,
+                Amount = vm.Amount,
+                CustomerId = vm.CustomerId,
+                EmployeeId = vm.EmployeeId,
+                InvoiceId = vm.InvoiceId
+            };
+
+            saleRep.Update(id, updatedSale);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: SaleController/Delete/5
@@ -128,7 +148,6 @@ namespace supply.Controllers
             catch
             {
                 return View();
-
             }
         }
     }

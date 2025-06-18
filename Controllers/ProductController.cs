@@ -14,11 +14,11 @@ namespace supply.Controllers
         IRepositorie<Category> categoryRep;
         IRepositorie<Supplier> supplierRepo;
 
-        public ProductController(IRepositorie<Product> repositorie
+        public ProductController(IRepositorie<Product> prorepositorie
             , IRepositorie<Category> categoryRepositorie,
              IRepositorie<Supplier> supplierRepositorie)
         {
-            productRep = repositorie;
+            productRep = prorepositorie;
             categoryRep = categoryRepositorie;
             supplierRepo = supplierRepositorie;
 

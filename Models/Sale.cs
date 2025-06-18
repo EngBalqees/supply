@@ -1,4 +1,6 @@
-﻿namespace supply.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace supply.Models
 {
     public class Sale
     {
@@ -7,12 +9,16 @@
         public required int Amount { get; set; }
         public int CustomerId { get; set; }
         public int EmployeeId { get; set; }
-        public int InvoiceItemId { get; set; }
-        public required Customer? Customer { get; set; }
+        public int InvoiceId { get; set; }
 
-        public required Employee? Employee { get; set; }
+        [ForeignKey("CustomerId")]
+        public  Customer? Customer { get; set; }
 
-        public required InvoiceItem? InvoiceItem { get; set; }
+        [ForeignKey("EmployeeId")]
+        public  Employee? Employee { get; set; }
+
+        [ForeignKey("InvoiceId")]
+        public Invoice? Invoice { get; set; }
 
     }
 }

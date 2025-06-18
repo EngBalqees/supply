@@ -59,7 +59,7 @@
                         <th>@Html.DisplayNameFor(model => model.First().Amount)</th>
                         <th>@Html.DisplayNameFor(model => model.First().Customer)</th>
                         <th>@Html.DisplayNameFor(model => model.First().Employee)</th>
-                        <th>@Html.DisplayNameFor(model => model.First().InvoiceItem.InvoiceNumber)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Invoice.InvoiceNumber)</th>
                         <th class="text-center">Actions</th>
                     </tr>
                 </thead>
@@ -71,7 +71,7 @@
                             <td>@item.Amount.ToString("")</td>
                             <td>@item.Customer?.Name</td>
                             <td>@item.Employee?.Name</td>
-                            <td>@item.InvoiceItem?.InvoiceNumber</td>
+                            <td>@item.Invoice.InvoiceNumber</td>
                             <td class="text-center action-buttons">
                                 <a asp-action="Edit" asp-route-id="@item.SaleId" class="btn btn-sm btn-outline-primary">Edit</a>
                                 <a asp-action="Details" asp-route-id="@item.SaleId" class="btn btn-sm btn-outline-info">Details</a>

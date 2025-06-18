@@ -23,7 +23,7 @@ builder.Services.AddScoped<IRepositorie<InvoiceItem>, dbInvoiceItemRepos>();
 builder.Services.AddScoped<IRepositorie<Employee>, dbEmployeeRepos>();
 builder.Services.AddScoped<IRepositorie<Customer>, dbCustomerRepos>();
 builder.Services.AddScoped<IRepositorie<Category>, dbCategoryRepos>();
-
+builder.Services.AddScoped<IRepositorie<Invoice>, dbInvoiceRepo>();
 
 
 

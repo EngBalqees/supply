@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kh\\source\\repos\\supply1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\views\\sale\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\views\\sale\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\controllers\\invoiceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\invoiceitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\views\\sale\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\views\\sale\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:views\\sale\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\viewmodels\\vmsaleprocusinvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:viewmodels\\vmsaleprocusinvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|c:\\users\\kh\\source\\repos\\supply1\\models\\repositorie\\dbsalerepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D312A02-D325-46AD-A4FB-D829521AC407}|supply.csproj|solutionrelative:models\\repositorie\\dbsalerepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Models\\Sale.cs",
+              "RelativeToolTip": "Models\\Sale.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:58:28.32Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Index.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T12:01:48.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "Controllers\\SaleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:57:59.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Create.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAGkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T10:56:51.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VmSaleProCusInvo.cs",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\ViewModels\\VmSaleProCusInvo.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VmSaleProCusInvo.cs",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\ViewModels\\VmSaleProCusInvo.cs",
+              "RelativeToolTip": "ViewModels\\VmSaleProCusInvo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T10:57:15.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbSaleRepos.cs",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Models\\Repositorie\\dbSaleRepos.cs",
+              "RelativeDocumentMoniker": "Models\\Repositorie\\dbSaleRepos.cs",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Models\\Repositorie\\dbSaleRepos.cs",
+              "RelativeToolTip": "Models\\Repositorie\\dbSaleRepos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:00:19.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Details.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAnwB0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:01:10.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Delete.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwCEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:01:00.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sale\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Views\\Sale\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Sale\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwC4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:59:53.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceItemController.cs",
+              "DocumentMoniker": "C:\\Users\\kh\\source\\repos\\supply1\\Controllers\\InvoiceItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceItemController.cs",
+              "ToolTip": "C:\\Users\\kh\\source\\repos\\supply1\\Controllers\\InvoiceItemController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceItemController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:00:27.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

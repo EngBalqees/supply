@@ -39,10 +39,13 @@ namespace supply.Models.Repositorie
 
         public IList<Product> View()
         {
-            return db.Product
-              .Include(x => x.Supplier)
-              .Include(x => x.Category)
-              .ToList();
+            var products = db.Product
+       .Include(p => p.Category)
+       .Include(p => p.Supplier)
+       .ToList();
+
+            // إزالة أي عنصر فيه null فعليًا
+            return products.Where(p => p.Category != null && p.Supplier != null).ToList();
         }
 
         public Product GetDetails(int id)

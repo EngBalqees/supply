@@ -10,6 +10,7 @@ namespace supply.Models
         public DbSet<Supplier> Supplier { get; set; }
         public DbSet<Sale> Sale { get; set; }
         public DbSet<Product> Product { get; set; }
+        public DbSet<Invoice> Invoice { get; set; }
         public DbSet<InvoiceItem> InvoiceItem { get; set; }
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Customer> Customer { get; set; }

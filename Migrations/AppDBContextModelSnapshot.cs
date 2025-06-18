@@ -89,6 +89,29 @@ namespace supply.Migrations
                     b.ToTable("Employee");
                 });
 
+            modelBuilder.Entity("supply.Models.Invoice", b =>
+                {
+                    b.Property<int>("InvoiceId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InvoiceId"));
+
+                    b.Property<DateTime>("InvoiceDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("InvoiceNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("InvoiceId");
+
+                    b.ToTable("Invoice");
+                });
+
             modelBuilder.Entity("supply.Models.InvoiceItem", b =>
                 {
                     b.Property<int>("InvoiceItemId")
@@ -97,7 +120,7 @@ namespace supply.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InvoiceItemId"));
 
-                    b.Property<int>("InvoiceNumber")
+                    b.Property<int>("InvoiceId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
@@ -113,6 +136,8 @@ namespace supply.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("InvoiceItemId");
+
+                    b.HasIndex("InvoiceId");
 
                     b.HasIndex("ProductId");
 
@@ -172,7 +197,7 @@ namespace supply.Migrations
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
 
-                    b.Property<int>("InvoiceItemId")
+                    b.Property<int>("InvoiceId")
                         .HasColumnType("int");
 
                     b.HasKey("SaleId");
@@ -181,7 +206,7 @@ namespace supply.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.HasIndex("InvoiceItemId");
+                    b.HasIndex("InvoiceId");
 
                     b.ToTable("Sale");
                 });
@@ -221,11 +246,19 @@ namespace supply.Migrations
 
             modelBuilder.Entity("supply.Models.InvoiceItem", b =>
                 {
+                    b.HasOne("supply.Models.Invoice", "Invoice")
+                        .WithMany("InvoiceItems")
+                        .HasForeignKey("InvoiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("supply.Models.Product", "Product")
                         .WithMany("invoiceItems")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Invoice");
 
                     b.Navigation("Product");
                 });
@@ -263,9 +296,9 @@ namespace supply.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("supply.Models.InvoiceItem", "InvoiceItem")
+                    b.HasOne("supply.Models.Invoice", "Invoice")
                         .WithMany()
-                        .HasForeignKey("InvoiceItemId")
+                        .HasForeignKey("InvoiceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -273,7 +306,12 @@ namespace supply.Migrations
 
                     b.Navigation("Employee");
 
-                    b.Navigation("InvoiceItem");
+                    b.Navigation("Invoice");
+                });
+
+            modelBuilder.Entity("supply.Models.Invoice", b =>
+                {
+                    b.Navigation("InvoiceItems");
                 });
 
             modelBuilder.Entity("supply.Models.Product", b =>
